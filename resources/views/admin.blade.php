@@ -9,16 +9,15 @@
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="{{asset('plugins/fontawesome-free/css/all.min.css')}} ">
+    <link rel="stylesheet" href="{{ asset('adminlte/plugins/fontawesome-free/css/all.min.css') }} ">
 
 
     <!-- Theme style -->
-    <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('adminlte/dist/css/adminlte.min.css') }}">
     <!-- overlayScrollbars -->
-    <link rel="stylesheet" href="{{asset('plugins/overlayScrollbars/css/OverlayScrollbars.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('adminlte/plugins/overlayScrollbars/css/OverlayScrollbars.min.css') }}">
 
-    <!-- summernote -->
-    <link rel="stylesheet" href="{{asset('plugins/summernote/summernote-bs4.min.css')}}">
+  
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -1460,19 +1459,19 @@
     <!-- ./wrapper -->
 
     <!-- jQuery -->
-    <script src="{{ asset ('plugins/jquery/jquery.min.js"') }}></script>
+    <script src="{{ asset('adminlte/plugins/jquery/jquery.min.js') }}"></script>
     
-    <script src="{{ asset ('plugins/jquery-ui/jquery-ui.min.js') }}"></script>
+    <script src="{{ asset ('adminlte/plugins/jquery-ui/jquery-ui.min.js') }}"></script>
     <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
     <script>
         $.widget.bridge('uibutton', $.ui.button)
     </script>
     
-    <script src="{{asset('plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{ asset('adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
-    <script src="{{asset('plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js')}}"></script>
+    <script src="{{ asset('adminlte/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js') }}"></script>
   
-    <script src="{{asset('dist/js/adminlte.js')}}"></script>
+    <script src="{{ asset('adminlte/dist/js/adminlte.js') }}"></script>
 
 </body>
 
